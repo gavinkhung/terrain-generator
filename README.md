@@ -1,6 +1,6 @@
 # terrain-generator
 
-3D Terrain Generation using the Perlin Noise algorithm
+Terrain Generation using the Perlin Noise algorithm, NumPy, and Matplotlib
 
 ## Perlin Noise
 
