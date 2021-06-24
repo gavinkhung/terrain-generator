@@ -24,6 +24,21 @@ The dot product is calculated using the random gradient vector and the distance 
 
 After the calculations are done, there are multiple dot products. After interpolation, you will get the value of the square. A fade function is used to remove artifacts.
 
+## Running the program
+
+### Locally
+
+```bash
+jupyter notebook
+```
+
+### Docker
+
+```bash
+docker build -t terrain-generator .
+docker run terrain-generator
+```
+
 ## Program Output
 
 ![Matplotlib 3d Projection](./perlin-noise-1.png 'Perlin Noise 3d')
